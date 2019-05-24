@@ -13838,6 +13838,26 @@ Prefab:
       propertyPath: m_LocalPosition.x
       value: -717
       objectReference: {fileID: 0}
+    - target: {fileID: 4374588232829270, guid: c87a59d52ec416c4babc6d7b9354da7a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -593
+      objectReference: {fileID: 0}
+    - target: {fileID: 4394146169067372, guid: c87a59d52ec416c4babc6d7b9354da7a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -593
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398719735500826, guid: c87a59d52ec416c4babc6d7b9354da7a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -593
+      objectReference: {fileID: 0}
+    - target: {fileID: 4489999101590360, guid: c87a59d52ec416c4babc6d7b9354da7a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -593
+      objectReference: {fileID: 0}
+    - target: {fileID: 4109809182554064, guid: c87a59d52ec416c4babc6d7b9354da7a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -593
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114516924484015512, guid: c87a59d52ec416c4babc6d7b9354da7a, type: 2}
     - {fileID: 114259698747611610, guid: c87a59d52ec416c4babc6d7b9354da7a, type: 2}
