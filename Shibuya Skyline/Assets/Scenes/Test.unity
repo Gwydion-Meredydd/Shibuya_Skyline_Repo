@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2030889583}
-  m_IndirectSpecularColor: {r: 0.5444019, g: 0.5070022, b: 0.524245, a: 1}
+  m_IndirectSpecularColor: {r: 0.5444145, g: 0.50700045, b: 0.5242461, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -13797,6 +13797,46 @@ Prefab:
     - target: {fileID: 1354907445600670, guid: c87a59d52ec416c4babc6d7b9354da7a, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4519451910377222, guid: c87a59d52ec416c4babc6d7b9354da7a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -701.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576628485382258, guid: c87a59d52ec416c4babc6d7b9354da7a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -701.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4082913833625348, guid: c87a59d52ec416c4babc6d7b9354da7a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -701.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4623227050590920, guid: c87a59d52ec416c4babc6d7b9354da7a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -701.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4862202443684894, guid: c87a59d52ec416c4babc6d7b9354da7a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -701.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4056768091220376, guid: c87a59d52ec416c4babc6d7b9354da7a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -701.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4609540008084432, guid: c87a59d52ec416c4babc6d7b9354da7a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -717
+      objectReference: {fileID: 0}
+    - target: {fileID: 4106823113288322, guid: c87a59d52ec416c4babc6d7b9354da7a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -717
+      objectReference: {fileID: 0}
+    - target: {fileID: 4291475212287598, guid: c87a59d52ec416c4babc6d7b9354da7a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -717
+      objectReference: {fileID: 0}
+    - target: {fileID: 4192404660689488, guid: c87a59d52ec416c4babc6d7b9354da7a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -717
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114516924484015512, guid: c87a59d52ec416c4babc6d7b9354da7a, type: 2}
