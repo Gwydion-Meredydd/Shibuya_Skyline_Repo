@@ -35,10 +35,18 @@ ModelImporter:
     2100000: lambert7
     2100002: blinn1
     2100004: lambert1
+    2100006: lambert8
     2300000: pCube7685
+    2300002: //RootNode
     3300000: pCube7685
+    3300002: //RootNode
     4300000: pCube7685
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn1
+    second: {fileID: 2100000, guid: 2a3334eab34ffd94db365d217eb95711, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -110,7 +118,6 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

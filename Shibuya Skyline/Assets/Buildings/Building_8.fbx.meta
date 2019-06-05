@@ -18,10 +18,23 @@ ModelImporter:
     2000004: left
     2100000: phong1
     2100002: lambert1
+    2100004: lambert2
     2300000: pCube7685
+    2300002: //RootNode
     3300000: pCube7685
+    3300002: //RootNode
     4300000: pCube7685
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: d9a5634dd2cf347449a1ed84617abad0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong1
+    second: {fileID: 2100000, guid: e23ef604c8df0e041814398ff7081739, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -93,7 +106,6 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

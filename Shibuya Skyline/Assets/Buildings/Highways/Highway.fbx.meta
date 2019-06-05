@@ -15,8 +15,11 @@ ModelImporter:
     2000002: left
     2100000: lambert1
     2100002: lambert3
+    2100004: lambert2
     2300000: Centre_Colmn12
+    2300002: //RootNode
     3300000: Centre_Colmn12
+    3300002: //RootNode
     4300000: Centre_Colmn12
   externalObjects:
   - first:
