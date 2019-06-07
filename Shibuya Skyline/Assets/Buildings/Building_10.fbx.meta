@@ -1,40 +1,21 @@
 fileFormatVersion: 2
-guid: 47309e1327347504e8bc12df994125cb
+guid: 849bf2c0900fa244d89a1d497bfc3726
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: back
-    100002: bottom
-    100004: //RootNode
-    100006: left
-    100008: pCube7685
-    400000: back
-    400002: bottom
-    400004: //RootNode
-    400006: left
-    400008: pCube7685
-    2000000: back
-    2000002: bottom
-    2000004: left
-    2100000: phong1
-    2100002: lambert1
-    2100004: lambert2
-    2300000: pCube7685
-    2300002: //RootNode
-    3300000: pCube7685
-    3300002: //RootNode
-    4300000: pCube7685
+    100000: //RootNode
+    400000: //RootNode
+    2100000: lambert1
+    2100002: phong1
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: pCube920
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: lambert2
+      name: lambert1
     second: {fileID: 2100000, guid: e5014f2b0954dad449b1828195116755, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: phong1
-    second: {fileID: 2100000, guid: e23ef604c8df0e041814398ff7081739, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
