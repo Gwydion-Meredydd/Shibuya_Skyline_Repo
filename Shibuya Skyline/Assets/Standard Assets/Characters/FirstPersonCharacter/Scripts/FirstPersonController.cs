@@ -68,6 +68,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
         // Update is called once per frame
         private void Update()
         {
+            if (Input.GetKeyDown("joystick button 1"))
+            {
+                CombatRoll();
+            }
             if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown("joystick button 0"))
             {
                 Death_Check = true;
@@ -167,6 +171,16 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
 
             m_PreviouslyGrounded = m_CharacterController.isGrounded;
+        }
+        public void CombatRoll()
+        {
+            m_CharacterController.height = 1;
+            StartCoroutine(Height_Reset());
+        }
+        IEnumerator Height_Reset()
+        {
+            yield return new WaitForSecondsRealtime(1);
+            m_CharacterController.height = (1.8f);
         }
         public void Death_Cam()
         {
