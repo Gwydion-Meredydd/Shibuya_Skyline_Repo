@@ -180,7 +180,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         IEnumerator Height_Reset()
         {
             yield return new WaitForSecondsRealtime(1);
-            m_CharacterController.height = (1.8f);
+            m_CharacterController.height = (2.15f);
         }
         public void Death_Cam()
         {
