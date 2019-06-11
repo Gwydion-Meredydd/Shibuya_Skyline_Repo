@@ -68,7 +68,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         // Update is called once per frame
         private void Update()
         {
-            if (Input.GetKeyDown("joystick button 1"))
+            if (Input.GetKeyDown("joystick button 1")||(Input.GetKeyUp("e")))
             {
                 CombatRoll();
             }
