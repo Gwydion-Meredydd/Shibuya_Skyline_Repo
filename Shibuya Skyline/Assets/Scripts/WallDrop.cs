@@ -27,6 +27,7 @@ public class WallDrop : MonoBehaviour
     {
         Rwall.SetActive(true);
         Lwall.SetActive(true);
+        yield return new WaitForSeconds(0.02f);
         Rwall.GetComponent<Renderer>().material.color = new Color32(0, 0, 0, 0);
         Lwall.GetComponent<Renderer>().material.color = new Color32(0, 0, 0, 0);
         yield return new WaitForSeconds(0.02f);
