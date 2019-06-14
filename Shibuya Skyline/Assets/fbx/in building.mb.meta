@@ -102,6 +102,14 @@ ModelImporter:
     100192: pCube362
     100194: pCube363
     100196: pCube364
+    100198: Floor1
+    100200: pCube365
+    100202: pCube366
+    100204: pCube373
+    100206: pCube374
+    100208: pCube375
+    100210: pCube376
+    100212: pCube381
     400000: Floor
     400002: //RootNode
     400004: pCube263
@@ -201,9 +209,19 @@ ModelImporter:
     400192: pCube362
     400194: pCube363
     400196: pCube364
+    400198: Floor1
+    400200: pCube365
+    400202: pCube366
+    400204: pCube373
+    400206: pCube374
+    400208: pCube375
+    400210: pCube376
+    400212: pCube381
     2100000: phong1
     2100002: lambert2
     2100004: lambert1
+    2100006: lambert4
+    2100008: lambert3
     2300000: Floor
     2300002: pCube263
     2300004: pCube264
@@ -302,6 +320,15 @@ ModelImporter:
     2300190: pCube362
     2300192: pCube363
     2300194: pCube364
+    2300196: Floor1
+    2300198: pCube365
+    2300200: pCube366
+    2300202: pCube373
+    2300204: pCube374
+    2300206: pCube375
+    2300208: pCube376
+    2300210: pCube381
+    2300212: //RootNode
     3300000: Floor
     3300002: pCube263
     3300004: pCube264
@@ -400,6 +427,15 @@ ModelImporter:
     3300190: pCube362
     3300192: pCube363
     3300194: pCube364
+    3300196: Floor1
+    3300198: pCube365
+    3300200: pCube366
+    3300202: pCube373
+    3300204: pCube374
+    3300206: pCube375
+    3300208: pCube376
+    3300210: pCube381
+    3300212: //RootNode
     4300000: pCube263
     4300002: pCube264
     4300004: pCube265
@@ -498,6 +534,15 @@ ModelImporter:
     4300190: pCube362
     4300192: pCube363
     4300194: pCube364
+    4300196: pCube365
+    4300198: pCube366
+    4300200: pCube373
+    4300202: pCube374
+    4300204: pCube375
+    4300206: pCube376
+    4300208: pCube381
+    4300210: Floor1
+    4300212: Posts1
   externalObjects: {}
   materials:
     importMaterials: 1
