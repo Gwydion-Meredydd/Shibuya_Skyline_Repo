@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Vault
+  - Climb
+  - Tall_Vault
+  - Target
+  - Zero
   layers:
   - Default
   - TransparentFX
