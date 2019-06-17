@@ -12,9 +12,9 @@ public class end : MonoBehaviour
                       row36, row37, row38, row39, row40, row41, row42, row43, row44, row45, row46, row47, row48, row49, row50, row51, row52,
                       row53, row54, row55, row56, row57, row58, row59, row60, row61, row62, row63, row64, row65, row66, row67, row68, row69,
                       row70, row71, row72, row73, row74, row75, row76, row77, row78, row79,
-                      camSpawn, playerCam;
+                      camSpawn, playerCam, playAva, contAva;
     private GameObject play;
-    public Transform player;
+    public Transform player, playMod;
     private NavMeshAgent navMeshAgent;
     //private FirstPersonController fpc;
 
@@ -30,11 +30,13 @@ public class end : MonoBehaviour
     {
         if(other.tag == "Player" && active == true)
         {
-            navMeshAgent.enabled = true;
+            //navMeshAgent.enabled = true;
             StartCoroutine(RoadContinue());
             Instantiate(camSpawn, player.position, Quaternion.identity);
             playerCam.SetActive(false);
-            
+            Instantiate(contAva, playMod.position, Quaternion.identity);
+            playAva.SetActive(false);
+
         }
         //SceneManager.LoadScene("Menu");
     }
