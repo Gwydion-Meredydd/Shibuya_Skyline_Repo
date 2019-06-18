@@ -14,6 +14,7 @@ public class end : MonoBehaviour
                       row70, row71, row72, row73, row74, row75, row76, row77, row78, row79,
                       camSpawn, playerCam, playAva, contAva;
     private GameObject play;
+    public GameObject NewPlayerModel;
     public Transform player, playMod;
     private NavMeshAgent navMeshAgent;
     //private FirstPersonController fpc;
@@ -35,6 +36,7 @@ public class end : MonoBehaviour
             Instantiate(camSpawn, player.position, Quaternion.identity);
             playerCam.SetActive(false);
             Instantiate(contAva, playMod.position, Quaternion.identity);
+            NewPlayerModel.SetActive(true);
             playAva.SetActive(false);
 
         }
