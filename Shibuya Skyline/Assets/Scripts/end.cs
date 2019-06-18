@@ -35,7 +35,8 @@ public class end : MonoBehaviour
             StartCoroutine(RoadContinue());
             Instantiate(camSpawn, player.position, Quaternion.identity);
             playerCam.SetActive(false);
-            Instantiate(contAva, playMod.position, Quaternion.identity);
+            //Instantiate(contAva, playMod.position, Quaternion.identity);
+            Instantiate(NewPlayerModel, playMod.position, Quaternion.identity);
             NewPlayerModel.SetActive(true);
             playAva.SetActive(false);
 
