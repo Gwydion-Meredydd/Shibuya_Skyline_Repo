@@ -59,6 +59,10 @@ ModelImporter:
     100106: pCube648
     100108: Posts
     100110: //RootNode
+    100112: Floors
+    100114: Slide
+    100116: Walls
+    100118: Windows
     400000: pCube594
     400002: pCube595
     400004: pCube596
@@ -115,9 +119,15 @@ ModelImporter:
     400106: pCube648
     400108: Posts
     400110: //RootNode
+    400112: Floors
+    400114: Slide
+    400116: Walls
+    400118: Windows
     2100000: lambert3
     2100002: phong1
     2100004: lambert1
+    2100006: lambert4
+    2100008: lambert2
     2300000: pCube594
     2300002: pCube595
     2300004: pCube596
@@ -173,6 +183,10 @@ ModelImporter:
     2300104: pCube647
     2300106: pCube648
     2300108: Posts
+    2300110: Floors
+    2300112: Slide
+    2300114: Walls
+    2300116: Windows
     3300000: pCube594
     3300002: pCube595
     3300004: pCube596
@@ -228,6 +242,10 @@ ModelImporter:
     3300104: pCube647
     3300106: pCube648
     3300108: Posts
+    3300110: Floors
+    3300112: Slide
+    3300114: Walls
+    3300116: Windows
     4300000: pCube594
     4300002: Posts
     4300004: pCube595
@@ -283,6 +301,10 @@ ModelImporter:
     4300104: pCube645
     4300106: pCube647
     4300108: pCube648
+    4300110: Floors
+    4300112: Slide
+    4300114: Windows
+    4300116: Walls
   externalObjects: {}
   materials:
     importMaterials: 1
