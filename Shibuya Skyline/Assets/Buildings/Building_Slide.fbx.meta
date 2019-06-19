@@ -34,7 +34,22 @@ ModelImporter:
     4300004: Slide
     4300006: Windows
     4300008: Walls
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: a35d15a2581c5b142a299a07af1bca3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3
+    second: {fileID: 2100000, guid: c6db8093c82ff3e4b8fa34c09e8a6e2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong1
+    second: {fileID: 2100000, guid: f65a53db62bc3854c95673268352865f, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
