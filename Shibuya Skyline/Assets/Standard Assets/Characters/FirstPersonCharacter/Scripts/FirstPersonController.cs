@@ -83,11 +83,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 Death_Check = false;
             }
-            if (Input.GetKeyDown(KeyCode.LeftShift))
+            if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown("joystick button 4"))
             {
                 m_IsWalking = false;
             }
-            if (Input.GetKeyUp(KeyCode.LeftShift))
+            if (Input.GetKeyUp(KeyCode.LeftShift) || Input.GetKeyUp("joystick button 4"))
             {
                 m_IsWalking = true;
             }
@@ -134,9 +134,13 @@ namespace UnityStandardAssets.Characters.FirstPerson
             if (!m_Jump)
             {
                 m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
+               
             }
-
-            if (!m_PreviouslyGrounded && m_CharacterController.isGrounded)
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown("joystick button 0"))
+            {
+                m_Jump = true;
+            }
+                if (!m_PreviouslyGrounded && m_CharacterController.isGrounded)
             {
                 StartCoroutine(m_JumpBob.DoBobCycle());
                 PlayLandingSound();

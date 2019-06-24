@@ -39,11 +39,16 @@ public class end : MonoBehaviour
             Instantiate(NewPlayerModel, playMod.position, Quaternion.identity);
             NewPlayerModel.SetActive(true);
             playAva.SetActive(false);
-
+            StartCoroutine(TimeDelay());
         }
-        //SceneManager.LoadScene("Menu");
+        
     }
 
+    IEnumerator TimeDelay()
+    {
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene("Menu");
+    }
     IEnumerator RoadContinue()
     {
         Debug.Log("ContRoad");
