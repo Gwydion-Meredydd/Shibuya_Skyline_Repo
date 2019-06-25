@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 354e2454099925742bcc6b1324eba0a0
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Glass
+    100004: Glass1
+    100006: Glass10
+    100008: Glass11
+    100010: Glass12
+    100012: Glass13
+    100014: Glass14
+    100016: Glass15
+    100018: Glass16
+    100020: Glass17
+    100022: Glass18
+    100024: Glass2
+    100026: Glass3
+    100028: Glass4
+    100030: Glass5
+    100032: Glass6
+    100034: Glass7
+    100036: Glass8
+    100038: Glass9
+    400000: //RootNode
+    400002: Glass
+    400004: Glass1
+    400006: Glass10
+    400008: Glass11
+    400010: Glass12
+    400012: Glass13
+    400014: Glass14
+    400016: Glass15
+    400018: Glass16
+    400020: Glass17
+    400022: Glass18
+    400024: Glass2
+    400026: Glass3
+    400028: Glass4
+    400030: Glass5
+    400032: Glass6
+    400034: Glass7
+    400036: Glass8
+    400038: Glass9
+    2100000: phong1
+    2300000: Glass
+    2300002: Glass1
+    2300004: Glass10
+    2300006: Glass11
+    2300008: Glass12
+    2300010: Glass13
+    2300012: Glass14
+    2300014: Glass15
+    2300016: Glass16
+    2300018: Glass17
+    2300020: Glass18
+    2300022: Glass2
+    2300024: Glass3
+    2300026: Glass4
+    2300028: Glass5
+    2300030: Glass6
+    2300032: Glass7
+    2300034: Glass8
+    2300036: Glass9
+    3300000: Glass
+    3300002: Glass1
+    3300004: Glass10
+    3300006: Glass11
+    3300008: Glass12
+    3300010: Glass13
+    3300012: Glass14
+    3300014: Glass15
+    3300016: Glass16
+    3300018: Glass17
+    3300020: Glass18
+    3300022: Glass2
+    3300024: Glass3
+    3300026: Glass4
+    3300028: Glass5
+    3300030: Glass6
+    3300032: Glass7
+    3300034: Glass8
+    3300036: Glass9
+    4300000: Glass
+    4300002: Glass1
+    4300004: Glass2
+    4300006: Glass3
+    4300008: Glass4
+    4300010: Glass5
+    4300012: Glass6
+    4300014: Glass7
+    4300016: Glass8
+    4300018: Glass9
+    4300020: Glass10
+    4300022: Glass11
+    4300024: Glass12
+    4300026: Glass13
+    4300028: Glass14
+    4300030: Glass15
+    4300032: Glass16
+    4300034: Glass17
+    4300036: Glass18
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong1
+    second: {fileID: 2100000, guid: f550b2d1573b05b4384bc21c180aaf9b, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
