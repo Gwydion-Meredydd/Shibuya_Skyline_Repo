@@ -23,7 +23,7 @@ public class end : MonoBehaviour
     {
         //fpController = GameObject.FindGameObjectWithTag("Player");
         play = GameObject.FindGameObjectWithTag("Player");
-        navMeshAgent = play.GetComponent<NavMeshAgent>();
+       // navMeshAgent = play.GetComponent<NavMeshAgent>();
         //fpc = fpController.GetComponent<FirstPersonController> ();
     }
 
