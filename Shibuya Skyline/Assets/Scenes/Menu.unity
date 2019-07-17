@@ -7541,8 +7541,8 @@ MonoBehaviour:
   quality: 1
   resolution: 4
   simpleTweakMode: 1
-  focalPoint: 8.9
-  smoothness: 44.64
+  focalPoint: 11.1
+  smoothness: 42.8
   focalZDistance: 0
   focalZStartCurve: 1
   focalZEndCurve: 1
@@ -7579,7 +7579,7 @@ MonoBehaviour:
   intensity: 0.036
   chromaticAberration: 0.2
   axialAberration: 0.5
-  blur: 0
+  blur: -0.94
   blurSpread: 0.75
   luminanceDependency: 0.25
   blurDistance: 2.5
@@ -7615,15 +7615,15 @@ MonoBehaviour:
   tweakMode: 0
   screenBlendMode: 1
   hdr: 0
-  sepBlurSpread: 1.5
-  useSrcAlphaAsMask: 0.5
-  bloomIntensity: 1.6
-  bloomThreshold: 0.5
-  bloomBlurIterations: 2
+  sepBlurSpread: 22.54
+  useSrcAlphaAsMask: 19.56
+  bloomIntensity: 35.9
+  bloomThreshold: 0.61
+  bloomBlurIterations: 304
   lensflares: 0
-  hollywoodFlareBlurIterations: 2
+  hollywoodFlareBlurIterations: 13
   lensflareMode: 1
-  hollyStretchWidth: 3.5
+  hollyStretchWidth: 4.31
   lensflareIntensity: 1
   lensflareThreshold: 0.3
   flareColorA: {r: 0.4, g: 0.4, b: 0.8, a: 0.75}
