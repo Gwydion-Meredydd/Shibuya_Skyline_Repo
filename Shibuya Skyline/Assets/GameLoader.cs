@@ -8,14 +8,14 @@ public class GameLoader : MonoBehaviour
 {
 
 
-    public GameObject loadingScreen;
+    //public GameObject loadingScreen;
     public Slider slider;
     public Text progressText;
 
     public void Start()
     {
-        LoadLevel(1);
-
+        LoadLevel(0);
+        int sceneIndex = 1; 
     }
 
 
@@ -29,7 +29,7 @@ public class GameLoader : MonoBehaviour
     IEnumerator LoadAsynchronously(int sceneIndex)
     {
         AsyncOperation operation = SceneManager.LoadSceneAsync(sceneIndex);
-        loadingScreen.SetActive(true);
+        //loadingScreen.SetActive(true);
 
         while (!operation.isDone)
         {
