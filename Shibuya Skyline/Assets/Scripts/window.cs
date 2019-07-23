@@ -5,6 +5,7 @@ using UnityEngine;
 public class window : MonoBehaviour {
 
     public GameObject WindowSmash;
+    public GameObject WindowShards;
     public GameObject Zero;
     // Use this for initialization
     void Start()
@@ -20,6 +21,7 @@ public class window : MonoBehaviour {
 
         {
             WindowSmash.SetActive(true);
+            WindowShards.SetActive(true);
             Destroy(gameObject);
             
         }

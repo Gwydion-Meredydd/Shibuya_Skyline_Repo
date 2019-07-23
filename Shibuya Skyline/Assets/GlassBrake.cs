@@ -23,7 +23,7 @@ public class GlassBrake : MonoBehaviour
         yield return new WaitForSecondsRealtime(0.8f);
         SolidGlass.SetActive(false);
         BrokenGlass.SetActive(true);
-        yield return new WaitForSecondsRealtime(1f);
+        yield return new WaitForSecondsRealtime(0.8f);
         Zero.SetActive(false);
         Zero2.SetActive(true);
         FlyCam.SetActive(true);
