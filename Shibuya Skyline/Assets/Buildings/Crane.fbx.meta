@@ -8,11 +8,15 @@ ModelImporter:
     100004: //RootNode
     100006: left
     100008: pCylinder871
+    100010: pCube1
+    100012: pCube2
     400000: back
     400002: bottom
     400004: //RootNode
     400006: left
     400008: pCylinder871
+    400010: pCube1
+    400012: pCube2
     2000000: back
     2000002: bottom
     2000004: left
@@ -20,9 +24,15 @@ ModelImporter:
     2100002: lambert6
     2300000: pCylinder871
     2300002: //RootNode
+    2300004: pCube1
+    2300006: pCube2
     3300000: pCylinder871
     3300002: //RootNode
+    3300004: pCube1
+    3300006: pCube2
     4300000: pCylinder871
+    4300002: pCube1
+    4300004: pCube2
   externalObjects:
   - first:
       type: UnityEngine:Material
