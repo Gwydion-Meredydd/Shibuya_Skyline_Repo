@@ -9,12 +9,18 @@ ModelImporter:
     100006: pCylinder874
     100008: pCylinder875
     100010: //RootNode
+    100012: pCube1
+    100014: pCube2
+    100016: pCylinder876
     400000: pCylinder871
     400002: pCylinder872
     400004: pCylinder873
     400006: pCylinder874
     400008: pCylinder875
     400010: //RootNode
+    400012: pCube1
+    400014: pCube2
+    400016: pCylinder876
     2100000: lambert5
     2100002: lambert6
     2100004: lambert1
@@ -24,18 +30,26 @@ ModelImporter:
     2300006: pCylinder874
     2300008: pCylinder875
     2300010: //RootNode
+    2300012: pCube1
+    2300014: pCube2
+    2300016: pCylinder876
     3300000: pCylinder871
     3300002: pCylinder872
     3300004: pCylinder873
     3300006: pCylinder874
     3300008: pCylinder875
     3300010: //RootNode
+    3300012: pCube1
+    3300014: pCube2
+    3300016: pCylinder876
     4300000: pCylinder871
     4300002: pCylinder872
     4300004: pCylinder873
     4300006: pCylinder874
     4300008: pCylinder875
     4300010: pCylinder876
+    4300012: pCube1
+    4300014: pCube2
   externalObjects:
   - first:
       type: UnityEngine:Material
