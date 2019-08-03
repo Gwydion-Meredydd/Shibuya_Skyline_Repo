@@ -21888,10 +21888,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4975a6e437fc3b149a8cd508ce5bdd69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  threshold: 0.835
-  intensity: 0.29
-  blurSize: 1.51
-  blurIterations: 1
+  threshold: 0.35
+  intensity: 0.42
+  blurSize: 5.5
+  blurIterations: 4
   blurType: 1
   fastBloomShader: {fileID: 4800000, guid: 68a00c837b82e4c6d92e7da765dc5f1d, type: 3}
 --- !u!114 &188134112
