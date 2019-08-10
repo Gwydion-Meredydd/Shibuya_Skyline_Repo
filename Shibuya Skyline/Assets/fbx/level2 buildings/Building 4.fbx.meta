@@ -15,8 +15,44 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: pCube37
+    4300002: Building_4
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fence
+    second: {fileID: 2100000, guid: 70088c621bd2a7846be28205c4e911a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor
+    second: {fileID: 2100000, guid: 7a310ba49af4929439e031821b55b5f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FloorWalls
+    second: {fileID: 2100000, guid: 93a37450a8ea2e24691a3c0559587f54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal1
+    second: {fileID: 2100000, guid: 30b0a04e86061ed46b59f21ac2ad066e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal2
+    second: {fileID: 2100000, guid: 7395345c942966e4c83be2f960303f39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls
+    second: {fileID: 2100000, guid: 42eccc2e44bddb742bd3c08769560839, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: bcb9d0a21ba27a945acc56331226b22c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
