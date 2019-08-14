@@ -181,13 +181,19 @@ namespace UnityStandardAssets.Characters.FirstPerson
         }
         public void CombatRoll()
         {
-            m_CharacterController.height = 1;
-            StartCoroutine(Height_Reset());
+            if (m_CharacterController.height == 2.15f)
+            {
+                m_CharacterController.height = 1;
+                StartCoroutine(Height_Reset());
+            }
         }
         IEnumerator Height_Reset()
         {
-            yield return new WaitForSecondsRealtime(1);
-            m_CharacterController.height = (2.15f);
+            if (m_CharacterController.height == 1)
+            {
+                yield return new WaitForSecondsRealtime(1);
+                m_CharacterController.height = (2.15f);
+            }
         }
         public void Death_Cam()
         {

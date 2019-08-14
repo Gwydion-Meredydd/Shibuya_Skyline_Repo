@@ -49,6 +49,7 @@ public class AnimationContoller : MonoBehaviour
     public bool Time_Check = false;
     private bool Ctrl_Check;
     private bool NOKILL;
+    private bool cansprint;
 
     // Use this for initialization
     void Start()
@@ -90,12 +91,12 @@ public class AnimationContoller : MonoBehaviour
         {
             Walk_Back_Off();
         }
-        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown("joystick button 4"))
+        if (Input.GetKeyDown(KeyCode.LeftShift) && cansprint == true || Input.GetKeyDown("joystick button 4")&& cansprint == true)
         {
             Sprint_check = true;
             WalkOn();
         }
-        if (Input.GetKeyUp(KeyCode.LeftShift) || Input.GetKeyUp("joystick button 4"))
+        if (Input.GetKeyUp(KeyCode.LeftShift) || Input.GetKeyUp("joystick button 4") || cansprint == false)
         {
             Sprint_check = false;
             Animator.SetBool("Run", false);
@@ -106,12 +107,12 @@ public class AnimationContoller : MonoBehaviour
         }
         if (Input.GetKeyDown("e") || Input.GetKeyDown("joystick button 1"))
         {
-            Ctrl_Check = true;
+
             Combat_Roll_Check();
         }
-        if (Input.GetKeyUp("e") || Input.GetKeyDown("joystick button 1"))
+        if (Input.GetKeyUp("e") || Input.GetKeyUp("joystick button 1"))
         {
-            Ctrl_Check = false;
+ 
             Combat_Roll_Check_Off();
         }
         if (Input.GetKeyUp("w"))
@@ -149,6 +150,7 @@ public class AnimationContoller : MonoBehaviour
     {
         WalkOn();
         Debug.Log("w");
+        cansprint = true;
     }
     public void Controller_S()
     {
@@ -169,6 +171,7 @@ public class AnimationContoller : MonoBehaviour
     {
         WalkOff();
         Debug.Log("woff");
+        cansprint = false;
     }
 
     public void Controller_S_Off()
@@ -188,16 +191,12 @@ public class AnimationContoller : MonoBehaviour
     }
     // Movemenet Methods aka the main body
     public void Combat_Roll_Check ()
-    {
-        if (Ctrl_Check == true)
-        {
+    { 
             Animator.SetBool("Roll",true);
-            Combat_Roll_Checker = true;
-            StartCoroutine(Roll_Off());
-        }
     }
     public void Combat_Roll_Check_Off()
     {
+        Animator.SetBool("Roll", false);
     }
     IEnumerator Roll_Off()
     {
@@ -240,11 +239,14 @@ public class AnimationContoller : MonoBehaviour
     public void WalkOn()
     {
         if (Sprint_check == false)
-        { 
-        Animator.SetBool("Walk", true);
-        Animator.SetBool("Run", false);
-        Running = false;
-        Walking = true;
+        {
+            if (cansprint == true)
+            {
+                Animator.SetBool("Walk", true);
+                Animator.SetBool("Run", false);
+                Running = false;
+                Walking = true;
+            }
         }
         else
         {
