@@ -171,7 +171,7 @@ public class AnimationContoller : MonoBehaviour
     {
         WalkOff();
         Debug.Log("woff");
-        cansprint = false;
+        
     }
 
     public void Controller_S_Off()
@@ -247,6 +247,7 @@ public class AnimationContoller : MonoBehaviour
                 Running = false;
                 Walking = true;
             }
+
         }
         else
         {
