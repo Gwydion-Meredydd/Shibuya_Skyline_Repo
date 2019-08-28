@@ -1,0 +1,203 @@
+fileFormatVersion: 2
+guid: e3753c33f0a530a428599208cfa16937
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Blade_1
+    100002: Blade_1 1
+    100004: Blade_2
+    100006: Blade_2 1
+    100008: Blade_3
+    100010: Blade_3 1
+    100012: Blade_4
+    100014: Blade_4 1
+    100016: Body
+    100018: //RootNode
+    100020: Leg_1
+    100022: Leg_2
+    100024: Leg_3
+    100026: Leg_4
+    100028: Light_right_left
+    100030: Light_up_down
+    100032: LightHnadles
+    100034: Properlar
+    100036: Ski_1
+    100038: Ski_2
+    100040: Stabilizer
+    100042: Window
+    100044: Wing
+    400000: Blade_1
+    400002: Blade_1 1
+    400004: Blade_2
+    400006: Blade_2 1
+    400008: Blade_3
+    400010: Blade_3 1
+    400012: Blade_4
+    400014: Blade_4 1
+    400016: Body
+    400018: //RootNode
+    400020: Leg_1
+    400022: Leg_2
+    400024: Leg_3
+    400026: Leg_4
+    400028: Light_right_left
+    400030: Light_up_down
+    400032: LightHnadles
+    400034: Properlar
+    400036: Ski_1
+    400038: Ski_2
+    400040: Stabilizer
+    400042: Window
+    400044: Wing
+    2100000: White
+    2100002: phongE1
+    2300000: Blade_1
+    2300002: Blade_1 1
+    2300004: Blade_2
+    2300006: Blade_2 1
+    2300008: Blade_3
+    2300010: Blade_3 1
+    2300012: Blade_4
+    2300014: Blade_4 1
+    2300016: Body
+    2300018: Leg_1
+    2300020: Leg_2
+    2300022: Leg_3
+    2300024: Leg_4
+    2300026: Light_right_left
+    2300028: Light_up_down
+    2300030: LightHnadles
+    2300032: Properlar
+    2300034: Ski_1
+    2300036: Ski_2
+    2300038: Stabilizer
+    2300040: Window
+    2300042: Wing
+    3300000: Blade_1
+    3300002: Blade_1 1
+    3300004: Blade_2
+    3300006: Blade_2 1
+    3300008: Blade_3
+    3300010: Blade_3 1
+    3300012: Blade_4
+    3300014: Blade_4 1
+    3300016: Body
+    3300018: Leg_1
+    3300020: Leg_2
+    3300022: Leg_3
+    3300024: Leg_4
+    3300026: Light_right_left
+    3300028: Light_up_down
+    3300030: LightHnadles
+    3300032: Properlar
+    3300034: Ski_1
+    3300036: Ski_2
+    3300038: Stabilizer
+    3300040: Window
+    3300042: Wing
+    4300000: Body
+    4300002: Window
+    4300004: Properlar
+    4300006: Blade_1
+    4300008: Blade_2
+    4300010: Blade_3
+    4300012: Blade_4
+    4300014: Stabilizer
+    4300016: Blade_1
+    4300018: Blade_2
+    4300020: Blade_3
+    4300022: Blade_4
+    4300024: Ski_1
+    4300026: Leg_1
+    4300028: Leg_2
+    4300030: Ski_2
+    4300032: Leg_3
+    4300034: Leg_4
+    4300036: Wing
+    4300038: Light_right_left
+    4300040: Light_up_down
+    4300042: LightHnadles
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
