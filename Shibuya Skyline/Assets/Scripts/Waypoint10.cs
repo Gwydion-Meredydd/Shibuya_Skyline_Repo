@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Waypoint10 : MonoBehaviour {
     public GameObject WayPoint_Manager;
+    public Animator Animator;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -11,6 +12,7 @@ public class Waypoint10 : MonoBehaviour {
 
         {
             WayPoint_Manager.SendMessage("Waypoint_10");
+            Animator.SetBool("Off", true);
         }
     }
 }

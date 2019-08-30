@@ -14,7 +14,7 @@ public class GameLoader : MonoBehaviour
 
     public void Start()
     {
-        LoadLevel(0);
+        LoadLevel(1);
         int sceneIndex = 1; 
     }
 

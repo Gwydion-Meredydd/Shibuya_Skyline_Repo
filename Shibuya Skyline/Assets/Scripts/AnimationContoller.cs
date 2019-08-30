@@ -91,7 +91,7 @@ public class AnimationContoller : MonoBehaviour
         {
             Walk_Back_Off();
         }
-        if (Input.GetKeyDown(KeyCode.LeftShift) && cansprint == true || Input.GetKeyDown("joystick button 4")&& cansprint == true)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && cansprint == true || Input.GetKey("joystick button 4")&& cansprint == true)
         {
             Sprint_check = true;
             WalkOn();
@@ -303,7 +303,7 @@ public class AnimationContoller : MonoBehaviour
             Run_Jump = true;
             StartCoroutine(Run_JumpOff());
         }
-        if (Running == false && Walking == true && Vault_Enabled == true)
+        if (Running == false && Walking == true)
         {
             Animator.SetBool("Walk_Jump", true);
             Walk_Jump = true;
@@ -414,7 +414,7 @@ public class AnimationContoller : MonoBehaviour
     }
     IEnumerator Walk_JumpOff()//button reset scripts
     {
-        yield return new WaitForSecondsRealtime(1);
+        yield return new WaitForSecondsRealtime(0.5f);
         Animator.SetBool("Walk_Jump", false);
         Walk_Jump = false;
     }

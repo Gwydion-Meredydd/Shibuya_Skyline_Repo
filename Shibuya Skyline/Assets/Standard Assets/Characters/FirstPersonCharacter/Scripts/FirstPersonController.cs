@@ -70,7 +70,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
         // Update is called once per frame
         private void Update()
         {
-            if (Input.GetKeyDown("joystick button 1") || (Input.GetKeyUp("e")))
+            if (m_GravityMultiplier == 1)
+            {
+                StartCoroutine(Run_ClimbOff());
+            }
+                if (Input.GetKeyDown("joystick button 1") || (Input.GetKeyUp("e")))
             {
                 if (m_CharacterController.isGrounded)
                 {
@@ -86,7 +90,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 Death_Check = false;
             }
-            if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown("joystick button 4"))
+            if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKey("joystick button 4"))
             {
                 m_IsWalking = false;
             }
@@ -405,7 +409,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_GravityMultiplier = 5;
         }
         public void Run_Climb()
-        {
+        {  
             m_GravityMultiplier = 1;
             StartCoroutine(Run_ClimbOff());
         }
