@@ -165,7 +165,7 @@ public class WayPoint_Manager1 : MonoBehaviour {
     IEnumerator Timer()
     {
         SoundEffect.SetActive(true);
-        yield return new WaitForSecondsRealtime(1.5f);
+        yield return new WaitForSecondsRealtime(3.3f);
         SoundEffect.SetActive(false);
     }
 
