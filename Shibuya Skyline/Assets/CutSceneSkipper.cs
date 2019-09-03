@@ -1,0 +1,40 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class CutSceneSkipper : MonoBehaviour
+{
+    public Animator Animator;
+    public GameObject CutSceneCam;
+    public GameObject SkipText1;
+    public GameObject SkipText2;
+
+    public void Start()
+    {
+        StartCoroutine(TimerSwitch());
+    }
+    public void Update()
+    {
+        if (Input.GetKey("joystick button 0"))
+        {
+            StartCoroutine(Timer());
+            Animator.SetBool("Skip", true);
+        }
+    }
+    IEnumerator Timer()
+    {
+        yield return new WaitForSecondsRealtime(0.5f);
+        CutSceneCam.SetActive(false);
+        SkipText1.SetActive(false);
+        SkipText2.SetActive(false);
+
+    }
+    IEnumerator TimerSwitch()
+    {
+        yield return new WaitForSecondsRealtime(10);
+        CutSceneCam.SetActive(false);
+        SkipText1.SetActive(false);
+        SkipText2.SetActive(false);
+
+    }
+}
