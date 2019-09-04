@@ -8,7 +8,7 @@ public class Winner : MonoBehaviour {
     public float Time;
     public float Time_Check;
     public float newtime;
-    public  float Score = 1000000;
+    public float Score = 1000000;
     public Text text1;
     public Text text2;
     public Text text3;
@@ -16,19 +16,19 @@ public class Winner : MonoBehaviour {
     bool Check2 = false;
 
     // Use this for initialization
-    void Start ()
+    void Start()
     {
-        PlayerPrefs.SetFloat("S_Score", 0);
+        PlayerPrefs.SetFloat("S_Score2", 0);
         Check2 = true;
         Check = true;
         Time = 0;
-    StartCoroutine(Timer1());
+        StartCoroutine(Timer1());
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(PlayerPrefs.GetFloat("S_Score"));
+        Debug.Log(PlayerPrefs.GetFloat("S_Score2"));
         StartCoroutine(Timer3());
         text1.text = Time.ToString();
         text2.text = Time.ToString();
@@ -39,6 +39,11 @@ public class Winner : MonoBehaviour {
             Timer1();
         }
     }
+    public void ScoreStop()
+    {
+        StopAllCoroutines();
+    }
+
     public void KickStart()
     {
         StartCoroutine(Timer1());
@@ -77,6 +82,6 @@ public class Winner : MonoBehaviour {
     public void Win()
     {
         Score = Score - newtime;
-        PlayerPrefs.SetFloat("S_Score", Score);
+        PlayerPrefs.SetFloat("S_Score2", Score);
     }
 }
