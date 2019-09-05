@@ -22,6 +22,7 @@ public class L2Finish : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            Player.SendMessage("Win");
             Player.SendMessage("ScoreStop");
             CanvasWin.SetActive(true);
         }
