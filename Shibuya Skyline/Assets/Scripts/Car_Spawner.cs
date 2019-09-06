@@ -5,6 +5,8 @@ using UnityEngine;
 public class Car_Spawner : MonoBehaviour
 {
     //declare GameObjets
+    [Range(0f, 20f)]
+    public float SpawnDelay;
     public  GameObject enemy, s1, s2, s3,s4,s5,s6,s7,s8,s9,s10;
 
     void Start()
@@ -43,7 +45,7 @@ public class Car_Spawner : MonoBehaviour
     }
     IEnumerator Timer()
     {
-        yield return new WaitForSecondsRealtime(2);
+        yield return new WaitForSecondsRealtime(SpawnDelay);
         spawnEnemy();
     }
 }

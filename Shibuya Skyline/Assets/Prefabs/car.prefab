@@ -419,10 +419,10 @@ Light:
   m_Color: {r: 0.5018455, g: 0.48420256, b: 0.8773585, a: 1}
   m_Intensity: 203.41
   m_Range: 3.69
-  m_SpotAngle: 155.7
+  m_SpotAngle: 1
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 1
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -459,7 +459,7 @@ Light:
   m_SpotAngle: 81.7
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 1
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -496,7 +496,7 @@ Light:
   m_SpotAngle: 81.7
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 1
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -553,7 +553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 107d506d43697ff49b81ec406bdaf3fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Speed: 26.4
+  m_Speed: 37.8
   Death_Time: 40
 --- !u!114 &114903728231230942
 MonoBehaviour:
