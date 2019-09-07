@@ -9,6 +9,7 @@ TagManager:
   - Tall_Vault
   - Target
   - Zero
+  - car
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
+  - Smoke
   - 
   - 
   - 

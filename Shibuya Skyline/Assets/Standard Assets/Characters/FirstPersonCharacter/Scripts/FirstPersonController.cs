@@ -406,17 +406,25 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public IEnumerator TALL_VAULTOFF()
         {
             yield return new WaitForSecondsRealtime(1);
-            m_GravityMultiplier = 5;
+            m_GravityMultiplier = 4;
         }
         public void Run_Climb()
-        {  
-            m_GravityMultiplier = 1;
-            StartCoroutine(Run_ClimbOff());
+        {
+            if (m_GravityMultiplier == 4)
+            {
+               
+                StartCoroutine(Run_ClimbOff());
+            }
+            else if (m_GravityMultiplier == 1)
+            {
+                m_GravityMultiplier = 4;
+            }
         }
         public IEnumerator Run_ClimbOff()
         {
+            m_GravityMultiplier = 1;
             yield return new WaitForSecondsRealtime(1);
-            m_GravityMultiplier = 5;
+            m_GravityMultiplier = 4;
         }
 
 

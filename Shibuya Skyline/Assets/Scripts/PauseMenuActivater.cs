@@ -81,9 +81,18 @@ public class PauseMenuActivater : MonoBehaviour
 
     public void PauseReturn()
     {
-        check3 = 2;
+        
+        PauseMenu.SetActive(false);
+        VideoMenu.SetActive(false);
+        ControlMenu.SetActive(false);
+        GameMenu.SetActive(false);
+        check3 = 1;
+        check2 = 1;
+        check1 = 1;
         Camera.SetActive(false);
         Player.SetActive(true);
+        Player.SendMessage("PauseTimerLink");
+        Win.SendMessage("PauseTimerLink");
         Win.SendMessage("KickStart");
         PauseMenu.SetActive(false);
         VideoMenu.SetActive(false);

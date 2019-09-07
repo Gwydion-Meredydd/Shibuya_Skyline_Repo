@@ -44,7 +44,7 @@ public class HighScore : MonoBehaviour {
 
             PlayerPrefs.SetFloat("H_Score2", Score2);
         }
-        text5.text = PlayerPrefs.GetFloat("H_Scor2e").ToString();
+        text5.text = PlayerPrefs.GetFloat("H_Score2").ToString();
         text6.text = PlayerPrefs.GetFloat("H_Score2").ToString();
 
         text7.text = PlayerPrefs.GetFloat("S_Score2", Score2).ToString();

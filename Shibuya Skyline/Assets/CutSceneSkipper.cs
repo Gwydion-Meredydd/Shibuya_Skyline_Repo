@@ -8,6 +8,7 @@ public class CutSceneSkipper : MonoBehaviour
     public GameObject CutSceneCam;
     public GameObject SkipText1;
     public GameObject SkipText2;
+    public GameObject PauseMenu;
 
     public void Start()
     {
@@ -21,10 +22,15 @@ public class CutSceneSkipper : MonoBehaviour
             Animator.SetBool("Skip", true);
         }
     }
+    public void PauseTimerLink()
+    {
+        Animator.SetBool("Skip", true);
+    }
     IEnumerator Timer()
     {
         yield return new WaitForSecondsRealtime(0.5f);
         CutSceneCam.SetActive(false);
+        PauseMenu.SetActive(true);
         SkipText1.SetActive(false);
         SkipText2.SetActive(false);
 
@@ -32,6 +38,7 @@ public class CutSceneSkipper : MonoBehaviour
     IEnumerator TimerSwitch()
     {
         yield return new WaitForSecondsRealtime(10);
+        PauseMenu.SetActive(true);
         CutSceneCam.SetActive(false);
         SkipText1.SetActive(false);
         SkipText2.SetActive(false);
