@@ -33,6 +33,7 @@ public class MenuController : MonoBehaviour {
         Animator.SetBool("Settings", false);
         Animator.SetBool("Quit", false);
         Animator.SetBool("Level", true);
+        EventSystems.SetSelectedGameObject(LevelSelectOption, null);
     }
     public void Controler()
     {

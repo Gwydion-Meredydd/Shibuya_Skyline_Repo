@@ -24,9 +24,9 @@ public class HighScore : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-        
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
+
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
             Score = PlayerPrefs.GetFloat("S_Score");
             if (Score > PlayerPrefs.GetFloat("H_Score"))
             {

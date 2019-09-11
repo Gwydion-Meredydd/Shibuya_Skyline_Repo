@@ -90,7 +90,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 Death_Check = false;
             }
-            if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKey("joystick button 4"))
+            if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown("joystick button 4"))
             {
                 m_IsWalking = false;
             }
@@ -106,35 +106,36 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 //Debug.Log(m_MoveDir.z);
                 RotateView();
             // the jump state needs to read here to make sure it is not missed
-            if (m_Input.y  >= 0.8 && m_IsWalking == true)
+            if (Input.GetAxis("Vertical")  >= 0.8 && m_IsWalking == true)
             {
+                Debug.Log("DeltaDelta");
                 Zero.SendMessage("Controller_W");
             }
-            if (m_Input.y <= -0.8 && m_IsWalking == true)
+            if (Input.GetAxis("Vertical") <= -0.8 && m_IsWalking == true)
             {
                 Zero.SendMessage("Controller_S");
             }
-            if (m_Input.x >= 0.8 && m_IsWalking == true)
+            if (Input.GetAxis("Horizontal") >= 0.8 && m_IsWalking == true)
             {
                 Zero.SendMessage("Controller_D");
             }
-            if (m_Input.x <= -0.8 && m_IsWalking == true)
+            if (Input.GetAxis("Horizontal") <= -0.8 && m_IsWalking == true)
             {
                 Zero.SendMessage("Controller_A");
             }
-            if (m_Input.y <= 0.8 && m_Input.y <= 0 && m_IsWalking == true)
+            if (Input.GetAxis("Vertical") <= 0.8 && Input.GetAxis("Vertical") <= 0 && m_IsWalking == true)
             {
                 Zero.SendMessage("Controller_W_Off");
             }
-            if (m_Input.y >= -0.8 && m_Input.y >= 0 && m_IsWalking == true)
+            if (Input.GetAxis("Vertical") >= -0.8 && Input.GetAxis("Vertical") >= 0 && m_IsWalking == true)
             {
                 Zero.SendMessage("Controller_S_Off");
             }
-            if (m_Input.x >= -0.8 && m_Input.x >= 0 && m_IsWalking == true)
+            if (Input.GetAxis("Horizontal") >= -0.8 && Input.GetAxis("Horizontal") >= 0 && m_IsWalking == true)
             {
                 Zero.SendMessage("Controller_A_Off");
             }
-            if (m_Input.x <= 0.8 && m_Input.x <= 0 && m_IsWalking == true)
+            if (Input.GetAxis("Horizontal") <= 0.8 && Input.GetAxis("Horizontal") <= 0 && m_IsWalking == true)
             {
                 Zero.SendMessage("Controller_D_Off");
             }
@@ -282,7 +283,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             float speed;
             GetInput(out speed);
             // always move along the camera forward as it is the direction that it being aimed at
-            Vector3 desiredMove = transform.forward * m_Input.y + transform.right * m_Input.x;
+            Vector3 desiredMove = transform.forward * Input.GetAxis("Vertical") + transform.right * Input.GetAxis("Horizontal");
 
             // get a normal for the surface that is being touched to move along it
             RaycastHit hitInfo;
@@ -335,7 +336,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private void ProgressStepCycle(float speed)
         {
-            if (m_CharacterController.velocity.sqrMagnitude > 0 && (m_Input.x != 0 || m_Input.y != 0))
+            if (m_CharacterController.velocity.sqrMagnitude > 0 && (Input.GetAxis("Vertical") != 0 || Input.GetAxis("Horizontal") != 0))
             {
                 m_StepCycle += (m_CharacterController.velocity.magnitude + (speed * (m_IsWalking ? 1f : m_RunstepLenghten))) *
                              Time.fixedDeltaTime;

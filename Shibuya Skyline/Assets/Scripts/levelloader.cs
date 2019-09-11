@@ -17,8 +17,8 @@ public class levelloader : MonoBehaviour
 	public void Start()
     {
 
-		Cursor.lockState = CursorLockMode.None;
-		Cursor.visible = true;
+
+		Cursor.visible = false;
 	
 	}
 		
