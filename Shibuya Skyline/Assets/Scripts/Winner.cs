@@ -41,7 +41,7 @@ public class Winner : MonoBehaviour {
     }
     public void ScoreStop()
     {
-        StopAllCoroutines();
+       // StopAllCoroutines();
     }
 
     public void KickStart()
