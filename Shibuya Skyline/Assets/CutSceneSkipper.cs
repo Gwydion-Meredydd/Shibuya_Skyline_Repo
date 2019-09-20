@@ -5,21 +5,28 @@ using UnityEngine;
 public class CutSceneSkipper : MonoBehaviour
 {
     public Animator Animator;
+    public GameObject Zero;
     public GameObject CutSceneCam;
     public GameObject SkipText1;
     public GameObject SkipText2;
     public GameObject PauseMenu;
+    private bool Check;
 
-    public void Start()
+    void Start()
     {
         StartCoroutine(TimerSwitch());
+        Check = false;
     }
     public void Update()
     {
-        if (Input.GetKey("joystick button 0"))
+        if (Check == false)
         {
-            StartCoroutine(Timer());
-            Animator.SetBool("Skip", true);
+            if (Input.GetKey("joystick button 0"))
+            {
+                StartCoroutine(Timer());
+                Animator.SetBool("Skip", true);
+                Check = true;
+            }
         }
     }
     public void PauseTimerLink()
@@ -30,6 +37,7 @@ public class CutSceneSkipper : MonoBehaviour
     {
         yield return new WaitForSecondsRealtime(0.5f);
         CutSceneCam.SetActive(false);
+        Zero.SendMessage("CutSceneReseting");
         PauseMenu.SetActive(true);
         SkipText1.SetActive(false);
         SkipText2.SetActive(false);
@@ -37,11 +45,18 @@ public class CutSceneSkipper : MonoBehaviour
     }
     IEnumerator TimerSwitch()
     {
-        yield return new WaitForSecondsRealtime(10);
-        PauseMenu.SetActive(true);
-        CutSceneCam.SetActive(false);
-        SkipText1.SetActive(false);
-        SkipText2.SetActive(false);
+        if (Check == false)
+        {
+            yield return new WaitForSeconds(10);
+            if (Check == false)
+            {
+                PauseMenu.SetActive(true);
+                Zero.SendMessage("CutSceneReseting");
+                CutSceneCam.SetActive(false);
+                SkipText1.SetActive(false);
+                SkipText2.SetActive(false);
+            }
+        }
 
     }
 }

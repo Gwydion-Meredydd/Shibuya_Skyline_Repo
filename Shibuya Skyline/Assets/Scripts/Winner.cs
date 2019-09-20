@@ -84,4 +84,8 @@ public class Winner : MonoBehaviour {
         Score = Score - newtime;
         PlayerPrefs.SetFloat("S_Score2", Score);
     }
+    public void CutSceneReseting()
+    {
+        Time = 0;
+    }
 }
