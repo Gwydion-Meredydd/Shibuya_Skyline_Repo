@@ -90,7 +90,7 @@ public class AnimationContoller : MonoBehaviour
         {
             Walk_Back_Off();
         }
-        if (Input.GetKeyDown(KeyCode.LeftShift) && cansprint == true || Input.GetKeyDown("joystick button 4")&& cansprint == true)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && cansprint == true || Input.GetKey("joystick button 4")&& cansprint == true)
         {
             Sprint_check = true;
             WalkOn();

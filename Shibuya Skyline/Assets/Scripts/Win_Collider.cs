@@ -26,7 +26,7 @@ public class Win_Collider : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-
+        Player.SendMessage("ScoreStop");
         FireWork1.SetActive(true);
         FireWork2.SetActive(true);
         FireWork3.SetActive(true);

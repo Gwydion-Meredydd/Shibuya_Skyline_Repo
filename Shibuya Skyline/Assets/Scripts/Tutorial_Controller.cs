@@ -6,10 +6,20 @@ public class Tutorial_Controller : MonoBehaviour
 {
     public GameObject CurrentText;
     public GameObject NextText;
+    public GameObject Player;
+    // Use this for initialization
+    void Start()
+    {
+        Player = GameObject.Find("zero");
+    }
     private void OnTriggerEnter(Collider other)
     {
-        NextText.SetActive(true);
-        CurrentText.SetActive(false);
+        if (other.gameObject.CompareTag("Player"))
+        {
+           
+            NextText.SetActive(true);
+            CurrentText.SetActive(false);
+        }
     }
 
 }

@@ -15,7 +15,42 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Building_5
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buffer
+    second: {fileID: 2100000, guid: d911a3ab245ae0c4890f903c38f965c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Clock_Face
+    second: {fileID: 2100000, guid: 00db5ef02bf37ed4ab4afadc82b27d15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Clock_Rim
+    second: {fileID: 2100000, guid: 3929849836f83a44dbf1fe12c03b42e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Clock_Support
+    second: {fileID: 2100000, guid: 1d31e3fd35963344c8518695ecbb1573, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor
+    second: {fileID: 2100000, guid: e505136fd283fc446827fcc3825316db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Support_Beams
+    second: {fileID: 2100000, guid: b5be63e28db73d740a5e5f3bd16c6a97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall
+    second: {fileID: 2100000, guid: 1d31e3fd35963344c8518695ecbb1573, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -54,7 +89,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0

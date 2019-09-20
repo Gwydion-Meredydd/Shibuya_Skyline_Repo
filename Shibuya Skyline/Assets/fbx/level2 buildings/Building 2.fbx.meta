@@ -15,7 +15,42 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: pCylinder22
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black
+    second: {fileID: 2100000, guid: 30b0a04e86061ed46b59f21ac2ad066e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows
+    second: {fileID: 2100000, guid: 0cc9e2a7fe6be404a91a17a534d43beb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: concreate
+    second: {fileID: 2100000, guid: 5dc880b6f1c7c66489bb1d9a4a1f7c6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: concreate1
+    second: {fileID: 2100000, guid: c86772b931c3527478aea8ae29dc3db2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fan
+    second: {fileID: 2100000, guid: 7395345c942966e4c83be2f960303f39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass
+    second: {fileID: 2100000, guid: 079400c3bd79c2d4691b7fb1e4a46be3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 177bf7af463984145bcf5f470ed4291f, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -54,7 +89,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0

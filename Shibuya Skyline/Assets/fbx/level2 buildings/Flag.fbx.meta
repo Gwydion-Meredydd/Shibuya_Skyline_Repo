@@ -17,7 +17,17 @@ ModelImporter:
     3300002: pCylinder1
     4300000: pCylinder1
     4300002: pCube1
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flag
+    second: {fileID: 2100000, guid: e143e3cf4611b4547bf17b586b9fad49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pole
+    second: {fileID: 2100000, guid: f5a53144109adbf4689a91fe0c55bfa6, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -56,7 +66,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
