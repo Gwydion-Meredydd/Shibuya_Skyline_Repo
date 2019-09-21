@@ -8000,10 +8000,8 @@ MonoBehaviour:
   PauseControler: {fileID: 393952089}
   PauseMenu: {fileID: 114843759}
   GameSettings: {fileID: 665733103}
-  VideoSettings: {fileID: 0}
   PauseMenuCamera: {fileID: 1402785380}
   PauseOption: {fileID: 1675023190}
-  VideoSettingsOption: {fileID: 0}
   GameSettingsOption: {fileID: 1154071814}
   EventSystems: {fileID: 685626693}
   Player: {fileID: 0}
@@ -54813,7 +54811,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4279670251407160, guid: f27e48bba5ca0b745ac5f08a7d9c5374, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4036509242085820, guid: f27e48bba5ca0b745ac5f08a7d9c5374, type: 2}
       propertyPath: m_RootOrder
@@ -55078,6 +55076,48 @@ Prefab:
         type: 2}
       propertyPath: m_CollisionDetection
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114449317553402180, guid: f27e48bba5ca0b745ac5f08a7d9c5374,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4347151700099830, guid: f27e48bba5ca0b745ac5f08a7d9c5374, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0.011779183
+      objectReference: {fileID: 0}
+    - target: {fileID: 4347151700099830, guid: f27e48bba5ca0b745ac5f08a7d9c5374, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.007069653
+      objectReference: {fileID: 0}
+    - target: {fileID: 4347151700099830, guid: f27e48bba5ca0b745ac5f08a7d9c5374, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0.024318187
+      objectReference: {fileID: 0}
+    - target: {fileID: 4347151700099830, guid: f27e48bba5ca0b745ac5f08a7d9c5374, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.9996098
+      objectReference: {fileID: 0}
+    - target: {fileID: 4347151700099830, guid: f27e48bba5ca0b745ac5f08a7d9c5374, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.00017249184
+      objectReference: {fileID: 0}
+    - target: {fileID: 4347151700099830, guid: f27e48bba5ca0b745ac5f08a7d9c5374, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.003045284
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279670251407160, guid: f27e48bba5ca0b745ac5f08a7d9c5374, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.2417635e-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279670251407160, guid: f27e48bba5ca0b745ac5f08a7d9c5374, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.001726749
+      objectReference: {fileID: 0}
+    - target: {fileID: 114283324600266586, guid: f27e48bba5ca0b745ac5f08a7d9c5374,
+        type: 2}
+      propertyPath: m_Text
+      value: "press \"b\" \nfor Leaderboard"
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 54747419801589268, guid: f27e48bba5ca0b745ac5f08a7d9c5374, type: 2}

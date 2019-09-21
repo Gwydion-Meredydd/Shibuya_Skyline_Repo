@@ -53,6 +53,7 @@ public class CutSceneSkipper : MonoBehaviour
             yield return new WaitForSeconds(10);
             if (Check == false)
             {
+                Check = true;
                 PauseMenu.SetActive(true);
                 Zero.SendMessage("CutSceneReseting");
                 CutSceneCam.SetActive(false);

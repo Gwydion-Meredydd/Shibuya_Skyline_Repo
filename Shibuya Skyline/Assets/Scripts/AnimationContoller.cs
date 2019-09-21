@@ -57,6 +57,10 @@ public class AnimationContoller : MonoBehaviour
         Animator.SetBool("Falling", false);
         Perent.SendMessage("Running_Speed", Running_Speed);
         Perent.SendMessage("Walking_Speed", Walking_Speed);
+        if (Input.GetKeyDown("joystick button 4"))
+        {
+            RunOn();
+        }
     }
 
     // Update is called once per frame
@@ -90,7 +94,7 @@ public class AnimationContoller : MonoBehaviour
         {
             Walk_Back_Off();
         }
-        if (Input.GetKeyDown(KeyCode.LeftShift) && cansprint == true || Input.GetKey("joystick button 4")&& cansprint == true)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && cansprint == true || Input.GetKeyDown("joystick button 4")&& cansprint == true)
         {
             Sprint_check = true;
             WalkOn();
@@ -252,7 +256,7 @@ public class AnimationContoller : MonoBehaviour
         {
             RunOn();
         }
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKey("joystick button 4"))
         {
             RunOn();
         }

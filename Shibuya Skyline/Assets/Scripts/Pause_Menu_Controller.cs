@@ -9,10 +9,10 @@ public class Pause_Menu_Controller : MonoBehaviour
     public GameObject PauseControler;
     public GameObject PauseMenu;
     public GameObject GameSettings;
-    public GameObject VideoSettings;
+    
     public GameObject PauseMenuCamera;
     public GameObject PauseOption;
-    public GameObject VideoSettingsOption;
+   
     public GameObject GameSettingsOption;
     public EventSystem EventSystems;
     public GameObject Player;
@@ -45,12 +45,7 @@ public class Pause_Menu_Controller : MonoBehaviour
         EventSystems.SetSelectedGameObject(GameSettingsOption, null);
         PauseMenu.SetActive(false);
     }
-    public void Video_Settings()
-    {
-        VideoSettings.SetActive(true);
-        EventSystems.SetSelectedGameObject(VideoSettingsOption, null);
-        PauseMenu.SetActive(false);
-    }
+    
     public void Main_Menu()
     {
         SceneManager.LoadScene("Menu");

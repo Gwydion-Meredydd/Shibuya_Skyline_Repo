@@ -64,6 +64,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
             m_MouseLook.Init(transform, m_Camera.transform);
+            if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKey("joystick button 4"))
+            {
+                m_IsWalking = false;
+            }
         }
 
 
@@ -108,7 +112,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             // the jump state needs to read here to make sure it is not missed
             if (Input.GetAxis("Vertical")  >= 0.8 && m_IsWalking == true)
             {
-                Debug.Log("DeltaDelta");
+
                 Zero.SendMessage("Controller_W");
             }
             if (Input.GetAxis("Vertical") <= -0.8 && m_IsWalking == true)
