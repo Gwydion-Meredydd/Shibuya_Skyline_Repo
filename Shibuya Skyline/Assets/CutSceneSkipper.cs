@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CutSceneSkipper : MonoBehaviour
 {
+    public Animator FpsAnimator;
     public Animator Animator;
     public GameObject Zero;
     public GameObject CutSceneCam;
@@ -24,6 +25,7 @@ public class CutSceneSkipper : MonoBehaviour
             if (Input.GetKey("joystick button 0"))
             {
                 StartCoroutine(Timer());
+                FpsAnimator.SetBool("Skip", true);
                 Animator.SetBool("Skip", true);
                 Check = true;
             }
@@ -31,6 +33,7 @@ public class CutSceneSkipper : MonoBehaviour
     }
     public void PauseTimerLink()
     {
+        FpsAnimator.SetBool("Skip", true);
         Animator.SetBool("Skip", true);
     }
     IEnumerator Timer()

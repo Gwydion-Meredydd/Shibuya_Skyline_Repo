@@ -277,6 +277,16 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             m_WalkSpeed = Walking_Speed;
         }
+        public void ElevatorOn()
+        {
+            m_StickToGroundForce = 30;
+            //m_GravityMultiplier = 0;
+        }
+        public void ElevatorOff()
+        {
+            m_StickToGroundForce = 5;
+            m_GravityMultiplier = 4;
+        }
 
         private void FixedUpdate()
         {
