@@ -436,6 +436,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 m_GravityMultiplier = 4;
             }
         }
+        public void PauseTimerLink()
+        {
+        }
         public IEnumerator Run_ClimbOff()
         {
             m_GravityMultiplier = 1;

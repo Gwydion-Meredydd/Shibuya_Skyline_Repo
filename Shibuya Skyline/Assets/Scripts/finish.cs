@@ -17,7 +17,7 @@ public class finish : MonoBehaviour {
     }
     IEnumerator Timer()//button reset scripts
     {
-        yield return new WaitForSecondsRealtime(174);
+        yield return new WaitForSecondsRealtime(95);
         SceneManager.LoadScene("Menu");
     }
 

@@ -8,14 +8,12 @@ public class PauseMenuActivater : MonoBehaviour
     public GameObject Player;
     public GameObject Camera;
     public GameObject PauseMenu;
-    public GameObject VideoMenu;
     public GameObject ControlMenu;
     public GameObject GameMenu;
     public GameObject Win;
     public GameObject PauseOption;
     public GameObject ControlsOption;
     public GameObject GameOption;
-    public GameObject VideoOption;
     public EventSystem EventSystems;
     public int check1 = 1;
     public int check2 = 1;
@@ -83,7 +81,6 @@ public class PauseMenuActivater : MonoBehaviour
     {
         
         PauseMenu.SetActive(false);
-        VideoMenu.SetActive(false);
         ControlMenu.SetActive(false);
         GameMenu.SetActive(false);
         check3 = 1;
@@ -95,7 +92,6 @@ public class PauseMenuActivater : MonoBehaviour
         Win.SendMessage("PauseTimerLink");
         Win.SendMessage("KickStart");
         PauseMenu.SetActive(false);
-        VideoMenu.SetActive(false);
         ControlMenu.SetActive(false);
         GameMenu.SetActive(false);
         StartCoroutine(Delay());

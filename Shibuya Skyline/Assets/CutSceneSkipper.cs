@@ -38,7 +38,7 @@ public class CutSceneSkipper : MonoBehaviour
     }
     IEnumerator Timer()
     {
-        yield return new WaitForSecondsRealtime(0.5f);
+        yield return new WaitForSecondsRealtime(0.1f);
         CutSceneCam.SetActive(false);
         Zero.SendMessage("CutSceneReseting");
         PauseMenu.SetActive(true);

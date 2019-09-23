@@ -18,18 +18,18 @@ public class GlassBrake : MonoBehaviour
     }
     IEnumerator Time()
     {
-        yield return new WaitForSecondsRealtime(4.8f);
+        yield return new WaitForSeconds(4.55f);
         Zero.SendMessage("Jump");
-        yield return new WaitForSecondsRealtime(0.8f);
+        yield return new WaitForSeconds(0.8f);
         SolidGlass.SetActive(false);
         BrokenGlass.SetActive(true);
-        yield return new WaitForSecondsRealtime(0.8f);
+        yield return new WaitForSeconds(0.8f);
         Zero.SetActive(false);
         Zero2.SetActive(true);
         FlyCam.SetActive(true);
-        yield return new WaitForSecondsRealtime(3f);
+        yield return new WaitForSeconds(3f);
         Player.SetActive(true);
-        yield return new WaitForSecondsRealtime(1f);
+        yield return new WaitForSeconds(1f);
         FlyCam.SetActive(false);
         Zero2.SetActive(false);
 
