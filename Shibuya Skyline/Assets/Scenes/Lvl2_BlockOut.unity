@@ -55281,11 +55281,6 @@ Prefab:
       propertyPath: InitialModule.startSize.scalar
       value: 50
       objectReference: {fileID: 0}
-    - target: {fileID: 114364339983211838, guid: f27e48bba5ca0b745ac5f08a7d9c5374,
-        type: 2}
-      propertyPath: m_ComatRollSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 55772bb1b074bb84587d055485505b4d, type: 3}
     m_RemovedComponents:
     - {fileID: 54747419801589268, guid: f27e48bba5ca0b745ac5f08a7d9c5374, type: 2}
     - {fileID: 65852133496032860, guid: f27e48bba5ca0b745ac5f08a7d9c5374, type: 2}

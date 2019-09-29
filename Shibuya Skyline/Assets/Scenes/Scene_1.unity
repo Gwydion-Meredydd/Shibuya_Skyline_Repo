@@ -37305,12 +37305,14 @@ MonoBehaviour:
   Player: {fileID: 1074896716}
   Camera: {fileID: 480099216}
   PauseMenu: {fileID: 1855710239}
+  VideoMenu: {fileID: 1460438178}
   ControlMenu: {fileID: 1460438178}
   GameMenu: {fileID: 2125100924}
   Win: {fileID: 1246593092}
   PauseOption: {fileID: 1974315768}
   ControlsOption: {fileID: 1460438178}
   GameOption: {fileID: 2125100924}
+  VideoOption: {fileID: 1460438178}
   EventSystems: {fileID: 1418214063}
   check1: 1
   check2: 1
@@ -40026,11 +40028,6 @@ Prefab:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 91d738b3cb933b540bff1f0a0791d0b8, type: 3}
-    - target: {fileID: 114565365976453496, guid: c1e9482f100db8b4eb94222899963879,
-        type: 2}
-      propertyPath: m_ComatRollSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 55772bb1b074bb84587d055485505b4d, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1e9482f100db8b4eb94222899963879, type: 2}
   m_IsPrefabAsset: 0
@@ -50979,8 +50976,10 @@ MonoBehaviour:
   PauseControler: {fileID: 1328596866}
   PauseMenu: {fileID: 1855710239}
   GameSettings: {fileID: 1345966665}
+  VideoSettings: {fileID: 1460438178}
   PauseMenuCamera: {fileID: 480099216}
   PauseOption: {fileID: 1974315768}
+  VideoSettingsOption: {fileID: 1460438178}
   GameSettingsOption: {fileID: 2101766208}
   EventSystems: {fileID: 1418214063}
   Player: {fileID: 1074896716}
