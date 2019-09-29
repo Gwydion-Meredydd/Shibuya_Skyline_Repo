@@ -24169,7 +24169,7 @@ MonoBehaviour:
   m_FootstepSounds:
   - {fileID: 8300000, guid: 7b5e277c3c181d74daceee333478bfe4, type: 3}
   - {fileID: 8300000, guid: b9923e49b24cdb946b74963838cdee19, type: 3}
-  m_ComatRollSound: {fileID: 0}
+  m_ComatRollSound: {fileID: 8300000, guid: 55772bb1b074bb84587d055485505b4d, type: 3}
   m_JumpSound: {fileID: 8300000, guid: a1529d1f26f34564db8aac4c5844e234, type: 3}
   m_LandSound: {fileID: 8300000, guid: d90636ef324084049bc7c2b3b08e3a64, type: 3}
 --- !u!143 &417931588
